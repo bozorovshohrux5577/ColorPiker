@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    
+}
+.navbar{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 0;
+    top: 0;
+    padding-top: 10px;
+}
+.navbar .navBox{
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    cursor: pointer;
+}
+.navbar .navBox img{
+width: 80px;
+}
+.navbar .navBox .navText{
+    font-size: 40px;
+    position: relative;
+    top: 15px;
+    right: 10px;
+    color:turquoise;
+}
+.sectionCart{
+    width: 100%;
+    height: 85%;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sectionCart .Cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;  
+    width: 400px;
+}
+.sectionCart .Cart #color{
+    width: 80px;
+    height: 30px;
+}
+.sectionCart .Cart #textInput{
+    width: 120px;
+    height: 30px;
+    padding-left: 10px;
+}
+.sectionCart .Cart button{
+    height: 100%;
+    width: 80px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(54, 53, 53, 0.247);
+    background-color: white;
+    font-weight: 600;
+}
+.sectionCart .Cart button:active{
+    background-color: rgb(224, 222, 222);
+}
+
+
+
+
+
+
+
+
+
+
+.color{
+    color: #00ffff;
+    color: #9acd32;
+    color: #80757f;
+    color: #ee82ee;
+    color: #f5deb3;
+    color: #000000;
+    color: #f0f8ff;
+    color: #fafa43;
+    color: #0000ff;
+    color: #7fffd4;
+    color: #8a2be2;
+    color: #a52a2a;
+    color: #deb887;
+    color: #5f9ea0;
+    color: #7fff00;
+    color: #9191fa;
+    color: #d2691e;
+    color: #ff7f50;
+    color: #6495ed;
+    color: #dc143c;
+    color: #006400;
+}
